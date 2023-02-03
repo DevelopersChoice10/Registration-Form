@@ -1,0 +1,52 @@
+body{
+    background-color: #f4f4f4;
+}
+.container{
+    margin-top:200px;
+    margin-left: 600px;
+    padding: 20px;
+    width: 400px;
+    background-color: #ffff;
+    box-shadow: 0px 4px 4px #000;
+}
+
+h1{
+    text-align: center;
+}
+
+#form-field label{
+    color: #777;
+    display: block;
+}
+
+#form-field input{
+    
+    border: 1px solid #e6dcdc;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    
+}
+
+#form-field input:focus{
+    outline: none;
+} 
+#form-field.success input{
+    border-color: green;
+}
+
+#form-field.error input{
+    border-color: red;
+}
+
+#form-field small{
+    color: red;
+}
+
+#btn{
+    margin-left: 150px;
+
+}
+
+
+
